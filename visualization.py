@@ -69,6 +69,7 @@ labels = ax2.get_xticklabels() + ax2.get_yticklabels()
 ax2.grid(True)
 ax2.legend(prop=font1)
 
+fig.savefig("MC_result1.png")
 plt.show()
 
 # %%
@@ -99,4 +100,5 @@ labels = ax3.get_xticklabels() + ax3.get_yticklabels()
 [label.set_fontname('Times New Roman') for label in labels]
 ax3.legend(prop=font1)
 
+fig2.savefig("MC_result2.png")
 plt.show()
